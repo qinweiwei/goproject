@@ -1,0 +1,32 @@
+{
+  "name":"jenkins",
+  "version": "1.0",
+  "repo": "stable",
+  "config": [
+    {
+      "name": "name",
+      "describe": "the name of helm release",
+      "default": "test"
+    },
+    {
+      "name": "Persistence_Enabled",
+      "describe": "use persistence volume",
+      "default": "false"
+    },
+    {
+      "name": "Master_AdminPassword",
+      "describe": "master admin password",
+      "default": "admin"
+    },
+    {
+      "name": "Master_ServiceType",
+      "describe": "master service type",
+      "default": "NodePort"
+    },
+    {
+      "name": "Master_HostName",
+      "describe": "master host name",
+      "default": " "
+    }
+  ]
+}

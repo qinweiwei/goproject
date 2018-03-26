@@ -1,0 +1,32 @@
+{
+  "name":"jenkins",
+  "version": "1.0",
+  "repo": "stable",
+  "config": [
+    {
+      "name": "name",
+      "describe": "the name of helm release",
+      "default": "test"
+    },
+    {
+      "name": "Persistence_Enabled",
+      "describe": "the root password of mysql",
+      "default": "false"
+    },
+    {
+      "name": "Master_AdminPassword",
+      "describe": "the user of mysql",
+      "default": "admin"
+    },
+    {
+      "name": "Master_ServiceType",
+      "describe": "the user password of mysql",
+      "default": "NodePort"
+    },
+    {
+      "name": "Master_HostName",
+      "describe": "the user password of mysql",
+      "default": " "
+    }
+  ]
+}

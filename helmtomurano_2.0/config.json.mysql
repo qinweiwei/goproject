@@ -1,0 +1,32 @@
+{
+  "name":"mysql",
+  "version": "1.0",
+  "repo": "stable",
+  "config": [
+    {
+      "name": "name",
+      "describe": "the name of helm release",
+      "default": "test"
+    },
+    {
+      "name": "mysqlRootPassword",
+      "describe": "the root password of mysql",
+      "default": "Pdmi1234"
+    },
+    {
+      "name": "mysqlUser",
+      "describe": "the user of mysql",
+      "default": "pdmi"
+    },
+    {
+      "name": "mysqlPassword",
+      "describe": "the user password of mysql",
+      "default": "pdmi"
+    },
+    {
+      "name": "persistence_enabled",
+      "describe": "use persistence volume",
+      "default": "false"
+    }
+  ]
+}
